@@ -1,6 +1,6 @@
 # Monorepo with react and express
 
-Make sure you have **Node** and **Yarn** installed.
+## Make sure you have **Node** and **Yarn** installed.
 
 ```bash
 node --v
@@ -9,7 +9,7 @@ yarn -v
 # 1.x.x
 ```
 
-# How to start this project
+## How to start this project
 
 ```bash
 # install dependences
