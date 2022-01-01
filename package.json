@@ -3,11 +3,35 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "homepage": "https://github.com/Matheus8174/monorepo-node-react#README",
+  "author": {
+    "email": "souzamatheus8174@gmail.com",
+    "name": "Matheus Santos Araújo da Silva",
+    "url": "https://github.com/Matheus8174/monorepo-node-react/issues"
+  },
+  "keywords": [
+    "monorepo",
+    "boilerplate",
+    "react",
+    "node",
+    "express"
+  ],
   "workspaces": {
     "packages": [
+      "packages/shared/*",
       "packages/*"
     ]
   },
-  "author": "Matheus8174 <souzamatheus8174@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@monorepo/eslint-config": "*",
+    "@types/jest": "^27.4.0",
+    "git-commit-msg-linter": "^3.2.8",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
 }
