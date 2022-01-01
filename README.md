@@ -1,6 +1,6 @@
-# Monorepo with react and express
+# Monorepo with react and express :man_technologist:
 
-## Make sure you have **Node** and **Yarn** installed.
+## Make sure you have [**Node**](https://nodejs.org/en/) and [**Yarn**](https://yarnpkg.com/) installed.
 
 ```bash
 node --v
